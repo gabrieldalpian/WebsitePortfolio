@@ -1,9 +1,23 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
-    <h1> Vitamin Shop </h1>
+    <div>
+      <div>
+        <header>
+          <ul>
+            <li>Vitamins</li>
+            <li>Contact</li>
+            <li>Cart</li>
+          </ul>
+        </header>
+      </div>
+
+      <div>
+        <h1>Vitamin Shop</h1>
+      </div>
+    </div>
   );
 }
-  
+
 export default App
