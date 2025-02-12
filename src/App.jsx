@@ -4,7 +4,7 @@ import CustomNavbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
 import ExperienceAndEducation from './components/ExperienceAndEducation';
-import Contact from './components/Contact';
+import Contact from './components/Contact'; // Ensure the file is named "Contact.jsx" exactly
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
