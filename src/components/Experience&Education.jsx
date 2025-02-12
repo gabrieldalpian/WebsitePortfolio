@@ -2,8 +2,9 @@ import Resume from "../assets/resume.png";
 
 const ExperienceAndEducation = () => {
   return (
+    <section id="Exp">
     <div style={{ textAlign: "center", margin: "40px auto" }}>
-      <h2 style={{ fontSize: "4em",color:"white", fontWeight: "bold", marginTop: "200px" }}>Resume</h2>
+      <h2 style={{ fontSize: "4em",color:"white", fontWeight: "bold", marginTop: "200px" }}>Education & Experience</h2>
       <img 
         src={Resume} 
         alt="Resume" 
@@ -18,6 +19,7 @@ const ExperienceAndEducation = () => {
         }} 
       />
     </div>
+    </section>
   );
 };
 

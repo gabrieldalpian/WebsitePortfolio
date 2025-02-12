@@ -21,14 +21,18 @@ const About = () => {
                 width:"800px",
                 height:"600px",
                 borderRadius: "10px", 
-                border: "5px solid white", 
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-                marginTop:"100px"
+                marginTop:"100px",
+                border: "0.5px solid white", 
+                outline: "3px solid white", 
+                outlineOffset: "3px"
               }}
             />
           </Col>
           <Col md={6}>
-            <p style={{ color: "white",textAlign: "center",fontSize: "1.5rem",maxWidth: "700px",margin: "0 auto",lineHeight: "1.6", marginTop:"-430px"}}> Hello, I'm Gabriel. I'm currently a Student at the New Jersey Institute of Technology. I will be graduating in September 2026 with a Bachelors of Science in Information Technology. I have had a passion for problem-solving and creating, which I plan to pursue that as a career being a Software Engineer. Some of my hobbies include.<br></br><br></br> <b>SPORTS | BBQ | ESCPAPE ROOM | BOWLING</b>
+            <p style={{ color: "white",textAlign: "center",fontSize: "1.5rem",maxWidth: "700px",margin: "0 auto",lineHeight: "1.6", marginTop:"-430px"}}> Hello, I'm Gabriel. I'm currently a Student at the New Jersey Institute of Technology. I will be graduating in September 2026 with a Bachelors of Science in Information Technology. I have had a passion for problem-solving and creating, which I plan to pursue that as a career being a Software Engineer. Some of my hobbies include.<br></br><br></br>
+            <div className="hobbies">
+            <b>SPORTS | BBQ | ESCPAPE ROOM | BOWLING</b>
+            </div>
             <div style={{ textAlign: "center", marginTop: "20px" }}>
             <PiSoccerBallFill size={50} style={{ margin: "0 15px", color: "black" }} />
             <FaFireAlt size={40} style={{ margin: "0 15px", color: "black" }} />

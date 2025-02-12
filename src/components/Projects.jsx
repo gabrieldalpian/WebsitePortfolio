@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-import cryptoImg from "../assets/crypto.jpg.png";
+import cryptoImg from "../assets/bit&eth.png";
 import weatherImg from "../assets/weatherImage.png";
 import ecommerceImg from "../assets/e-commerce.jpg.png";
 import chat from "../assets/Unknown.png";
@@ -11,15 +11,15 @@ const projects = [
     title: "E-commerce Store",
     description: "Developed a fully functional e-commerce platform using ReactJS for purchasing soccer jerseys. Implemented a shopping cart using React hooks. Designed a responsive layout for an amazing user experience.",
     image: ecommerceImg,
-    link: "https://your-ecommerce-site.com",
-    github: "https://github.com/your-ecommerce-repo",
-    isEcommerce: true, // This flag indicates the project is e-commerce related
+    link: "https://6755517bcfcfd400087c5d47--footballelite.netlify.app",
+    github: "https://github.com/gabrieldalpian/JerseyShop",
+    isEcommerce: true,
   },
   {
     title: "Crypto Price Tracker",
     description: "Developed a Python-based crypto tracker that fetches and stores real-time Bitcoin and Ethereum prices via API. Built an SQLite3 backend for automated updates every 10 minutes and a PHP web interface to display live data.",
     image: cryptoImg,
-    github: "https://github.com/your-crypto-project",
+    github: "https://github.com/gabrieldalpian/CryptoPriceTracker",
   },
   {
     title: "HealthBot",
@@ -31,7 +31,7 @@ const projects = [
     title: "Weather App",
     description: "Built a JavaScript weather app that fetches and displays real-time city weather using the OpenWeatherMap API.",
     image: weatherImg,
-    github: "https://github.com/your-weather-app",
+    github: "https://github.com/gabrieldalpian/weather.api",
   },
 ];
 

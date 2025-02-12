@@ -15,37 +15,38 @@ body {
   color: black;
   font-weight: bold;
 }
+.card h1 {
+  transition: none !important;
+  text-decoration: none !important;
+}
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px); /* Slightly lift the card on hover */
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect on hover */
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
 }
 
-/* Remove any extra styles around the icons */
 .card .icon-wrapper {
-  padding: 0; /* Remove padding around the icon */
-  display: inline-block; /* Keep icon aligned correctly */
-  background: none; /* No background */
-  box-shadow: none; /* Remove any shadow */
-  transition: transform 0.3s ease; /* Only apply hover scale effect */
+  padding: 0;
+  display: inline-block; 
+  background: none; 
+  box-shadow: none; 
+  transition: transform 0.3s ease; 
 }
 
-/* Make the icon scale slightly on hover */
 .card .icon-wrapper:hover svg {
-  transform: scale(1.1); /* Slightly increase size on hover */
+  transform: scale(1.1); 
 }
 
-/* Add spacing between card and icon */
 .card h5 {
   margin-top: 15px;
   font-weight: bold;
   font-size: 1.2rem;
 }
 .icon-wrapper img::after {
-  content: none; /* Hide any fallback content */
+  content: none; 
 }
 .projects-container {
   padding: 50px 0;
@@ -124,18 +125,134 @@ body {
 
 /* Responsive: Stack on smaller screens */
 @media (max-width: 768px) {
+  /* Navbar */
+  .navbar .nav-link {
+    font-size: 1em !important;
+    margin-right: 10px !important;
+  }
+
+  /* Home Section */
+  #home h1 {
+    font-size: 3.5rem !important;
+  }
+
+  #home p {
+    font-size: 2em !important;
+    padding-right: 0 !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* About Section */
+  #about h2 {
+    font-size: 3.2em !important;
+    margin-bottom: 0.1px !important;
+  }
+
+  #about img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; 
+    max-width: 380px; 
+    height: auto; 
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0.5px solid white;
+    outline: 3px solid white;
+    outline-offset: 3px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  #about p {
+    font-size: 1.5em !important;
+    margin-top: 50px !important;
+    max-width: 90% !important;
+  }
+  .hobbies {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #about .col-md-6 {
+    text-align: center;
+  }
+
+  /* Skills Section */
+  #skills h2 {
+    font-size: 1em !important;
+    margin-top: 10px !important;
+  }
+
+  .skills .card {
+    margin-bottom: 20px;
+  }
+
+  .skills .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* Projects Section */
+  #projects h2 {
+    font-size: 2em !important;
+    margin-top: 100px !important;
+  }
+
   .project-item {
     flex-direction: column !important;
     text-align: center;
+    margin-top: 40px !important;
+
   }
 
   .project-info {
     text-align: center;
   }
 
+  .project-info h3 {
+    font-size: 1.5em !important;
+  }
+
+  .project-info p {
+    font-size: 1em !important;
+  }
+
+  .project-link {
+    margin: 10px 0;
+  }
+  .project-item {
+    height: auto !important;
+    width: 360px !important;
+  }
+
+
+  /* Experience & Education Section */
+  #Exp h2 {
+    font-size: 3em !important;
+    margin-top: 100px !important;
+  }
+
+  #Exp img {
+    width: 360px !important;
+    height: auto !important;
+    font-weight: bold;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 40px !important;
+    height: auto !important;
+  }
+  .contact-heading {
+    font-size: 3em !important;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+}
+
 @media (min-width: 768px) {
   .contact-section {
     max-width: 36rem;
   }
-}
 }

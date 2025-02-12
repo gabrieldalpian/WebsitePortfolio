@@ -1,83 +1,96 @@
 import React from 'react';
-import { FaPhone, FaEnvelope } from 'react-icons/fa'; // Using react-icons for icons
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div
-      style={{
-        textAlign: 'center',
-        padding: '40px 20px',
-        fontFamily: 'Arial, sans-serif',
-        color: 'white',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <h1
-        style={{
-          fontSize: '4em',
-          marginBottom: '50px',
-          animation: 'fadeIn 2s ease-in-out',
-        }}
-      >
-        CONTACT
-      </h1>
+    <section id="info">
       <div
         style={{
-          marginBottom: '20px',
+          textAlign: 'center',
+          padding: '40px 20px',
+          fontFamily: 'Arial, sans-serif',
+          color: 'white',
           display: 'flex',
-          alignItems: 'center',
+          flexDirection: 'column',
           justifyContent: 'center',
-          gap: '10px',
-          animation: 'slideIn 1s ease-in-out',
+          alignItems: 'center',
         }}
       >
-        <span style={{ fontSize: '1.5em' }}>
-          <FaPhone />
-        </span>
-        <a
-          href="tel:+1551-339-2508"
+        <h1
+          className="contact-heading"
           style={{
-            color: 'white',
-            textDecoration: 'none',
-            fontSize: '1.5em',
-            transition: 'color 0.3s ease',
+            fontSize: '4em',
+            marginBottom: '50px',
+            animation: 'fadeIn 2s ease-in-out',
           }}
-          onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
-          onMouseOut={(e) => (e.target.style.color = 'white')}
         >
-          +1 551-339-2508
-        </a>
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: '10px',
-          animation: 'slideIn 1s ease-in-out',
-        }}
-      >
-        <span style={{ fontSize: '1.5em' }}>
-          <FaEnvelope />
-        </span>
-        <a
-          href="mailto:gabrieldalpian1227@gmail.com"
+          Contact 
+        </h1>
+
+        <div
           style={{
-            color: 'white',
-            textDecoration: 'none',
-            fontSize: '1.5em',
-            transition: 'color 0.3s ease',
+            background: 'rgba(255, 255, 255, 0.1)', // Light transparent white
+            padding: '15px 25px',
+            borderRadius: '12px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '15px',
+            animation: 'slideIn 1s ease-in-out',
+            backdropFilter: 'blur(5px)', // Subtle blur effect
           }}
-          onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
-          onMouseOut={(e) => (e.target.style.color = 'white')}
         >
-          gabrieldalpian1227@gmail.com
-        </a>
+          <span style={{ fontSize: '1.5em', color: 'white' }}>
+            <FaPhone />
+          </span>
+          <a
+            href="tel:+1551-339-2508"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+              fontSize: '1.5em',
+              transition: 'color 0.3s ease',
+            }}
+            onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
+            onMouseOut={(e) => (e.target.style.color = 'white')}
+          >
+            +1 551-339-2508
+          </a>
+        </div>
+
+        <div
+          style={{
+            background: 'rgba(255, 255, 255, 0.1)',
+            padding: '15px 25px',
+            borderRadius: '12px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '15px',
+            marginTop: '20px',
+            animation: 'slideIn 1s ease-in-out',
+            backdropFilter: 'blur(5px)',
+          }}
+        >
+          <span style={{ fontSize: '1.5em', color: 'white' }}>
+            <FaEnvelope />
+          </span>
+          <a
+            href="mailto:gabrieldalpian1227@gmail.com"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+              fontSize: '1.5em',
+              transition: 'color 0.3s ease',
+            }}
+            onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
+            onMouseOut={(e) => (e.target.style.color = 'white')}
+          >
+            gabrieldalpian1227@gmail.com
+          </a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
