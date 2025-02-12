@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+}
+body {
+  background: url('background.gif') no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    cursor: pointer;
+    color: white;
+}
+.typewriter-text {
+  color: black;
+  font-weight: bold;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slightly lift the card on hover */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect on hover */
+}
+
+/* Remove any extra styles around the icons */
+.card .icon-wrapper {
+  padding: 0; /* Remove padding around the icon */
+  display: inline-block; /* Keep icon aligned correctly */
+  background: none; /* No background */
+  box-shadow: none; /* Remove any shadow */
+  transition: transform 0.3s ease; /* Only apply hover scale effect */
+}
+
+/* Make the icon scale slightly on hover */
+.card .icon-wrapper:hover svg {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Add spacing between card and icon */
+.card h5 {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.icon-wrapper img::after {
+  content: none; /* Hide any fallback content */
+}
+.projects-container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.project-item:hover {
+  transform: scale(1.02);
+}
+
+.project-image-wrapper {
+  flex: 1;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-info {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 2em;
+  color: black;
+}
+
+.project-info p {
+  font-size: 1.2em;
+  color:black;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.project-link:hover {
+  background: #0056b3;
+}
+
+/* Alternate Layout: Image Left, Text Right */
+.project-item.left {
+  flex-direction: row;
+}
+
+/* Alternate Layout: Image Right, Text Left */
+.project-item.right {
+  flex-direction: row-reverse;
+}
+
+/* Responsive: Stack on smaller screens */
+@media (max-width: 768px) {
+  .project-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .project-info {
+    text-align: center;
+  }
+
+@media (min-width: 768px) {
+  .contact-section {
+    max-width: 36rem;
+  }
+}
+}

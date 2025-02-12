@@ -1,23 +1,29 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import CustomNavbar from './components/CustomNavBar';
+import Home from './components/Home';
+import About from './components/About';
+import ExperienceAndEducation from './components/Experience&Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+
 import './App.css';
 
 function App() {
   return (
     <div>
-      <div>
-        <header>
-          <ul>
-            <li>Vitamins</li>
-            <li>Contact</li>
-            <li>Cart</li>
-          </ul>
-        </header>
-      </div>
-
-      <div>
-        <h1>Vitamin Shop</h1>
-      </div>
+      <CustomNavbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <ExperienceAndEducation />
+      <Contact />
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;
