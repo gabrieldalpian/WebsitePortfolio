@@ -1,5 +1,5 @@
-import React from 'react';
-import { Card, Container } from 'react-bootstrap';
+import React from "react";
+import { Card, Container } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
               My friends call me Gabe!
             </h1>
             <div style={{ display: "flex", justifyContent: "center", alignItems: "left", gap: "10px", paddingRight:"300px", fontSize:"3em", marginTop:"30px"}}>
-              I'm a{" "}
+              I&apos;m a{" "}
               <span style={{ color: "black", fontWeight:"bold" }}>
                 <Typewriter 
                   options={{

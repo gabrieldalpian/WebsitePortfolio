@@ -30,9 +30,9 @@ const About = () => {
           </Col>
           <Col md={6}>
             <div style={{ color: "white", textAlign: "center", fontSize: "1.5rem", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6", marginTop:"-430px" }}>
-              Hello, I'm Gabriel. I'm currently a Student at the New Jersey Institute of Technology. I will be graduating in September 2026 with a Bachelors of Science in Information Technology. I have had a passion for problem-solving and creating, which I plan to pursue as a career being a Software Engineer. Some of my hobbies include.
+              Hello, I&apos;m Gabriel. I&apos;m currently a Student at the New Jersey Institute of Technology. I will be graduating in September 2026 with a Bachelors of Science in Information Technology. I have had a passion for problem-solving and creating, which I plan to pursue as a career being a Software Engineer. Some of my hobbies include.
             </div>
-            <div className="hobbies" style={{ textAlign: "center", fontSize: "1.5rem", marginTop: "20px" }}>
+            <div className="hobbies" style={{ textAlign: "center", fontSize: "1.5rem", marginTop: "20px",color:"white" }}>
               <b>SPORTS | BBQ | ESCAPE ROOM | BOWLING</b>
             </div>
             <div style={{ textAlign: "center", marginTop: "20px" }}>
