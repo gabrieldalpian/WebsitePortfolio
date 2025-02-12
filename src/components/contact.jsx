@@ -51,8 +51,6 @@ const Contact = () => {
               fontSize: '1.5em',
               transition: 'color 0.3s ease',
             }}
-            onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
-            onMouseOut={(e) => (e.target.style.color = 'white')}
           >
             +1 551-339-2508
           </a>
@@ -83,8 +81,6 @@ const Contact = () => {
               fontSize: '1.5em',
               transition: 'color 0.3s ease',
             }}
-            onMouseOver={(e) => (e.target.style.color = '#ffdd57')}
-            onMouseOut={(e) => (e.target.style.color = 'white')}
           >
             gabrieldalpian1227@gmail.com
           </a>
