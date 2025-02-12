@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll'; 
 
-const CustomNavbar = () => {
+const CustomNavBar = () => {
   return (
     <Navbar expand="lg" fixed="top" style={{backgroundColor: "rgba(0, 0, 0, 0.5)",padding: "1em"}}>
       <Container>
@@ -22,4 +22,4 @@ const CustomNavbar = () => {
   );
 };
 
-export default CustomNavbar;
+export default CustomNavBar;

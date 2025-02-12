@@ -8,10 +8,10 @@ const Home = () => {
       <Container>
         <Card className="text-center bg-transparent border-0 text-white">
           <Card.Body>
-          <h1 style={{ fontSize: "5rem", fontWeight: "bold" }}> 
-            My friends call me Gabe!
-          </h1>
-            <p style={{ display: "flex", justifyContent: "center", alignItems: "left", gap: "10px", paddingRight:"300px", fontSize:"3em", marginTop:"30px"}}>
+            <h1 style={{ fontSize: "5rem", fontWeight: "bold" }}> 
+              My friends call me Gabe!
+            </h1>
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "left", gap: "10px", paddingRight:"300px", fontSize:"3em", marginTop:"30px"}}>
               I'm a{" "}
               <span style={{ color: "black", fontWeight:"bold" }}>
                 <Typewriter 
@@ -23,7 +23,7 @@ const Home = () => {
                   }}
                 />
               </span>
-            </p>
+            </div>
           </Card.Body>
         </Card>
       </Container>

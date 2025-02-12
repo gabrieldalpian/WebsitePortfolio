@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import CustomNavbar from './components/CustomNavbar';
+import CustomNavbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
 import ExperienceAndEducation from './components/ExperienceAndEducation';
