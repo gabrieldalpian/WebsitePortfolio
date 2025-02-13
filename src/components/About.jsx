@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FaFireAlt, FaMapSigns, FaBowlingBall } from 'react-icons/fa';
 import { PiSoccerBallFill } from "react-icons/pi";
+import Img6687 from '../assets/IMG_6687-3.jpeg';
+
 
 const About = () => {
   return (
@@ -13,7 +15,7 @@ const About = () => {
           </Col>
           <Col md={5}>
             <Image
-              src="./IMG_6687-3.jpeg"
+              src={Img6687}
               fluid
               style={{
                 objectFit: "cover", 
