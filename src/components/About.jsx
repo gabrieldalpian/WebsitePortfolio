@@ -13,7 +13,7 @@ const About = () => {
           </Col>
           <Col md={5}>
             <Image
-              src="IMG_6687-3.jpeg"
+              src="/IMG_6687-3.jpeg"
               fluid
               style={{
                 objectFit: "cover", 
