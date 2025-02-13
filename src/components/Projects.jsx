@@ -43,16 +43,7 @@ const Projects = () => {
       </h2>
       {projects.map((project, index) => (
         <div key={index} className={`project-item ${index % 2 === 0 ? "left" : "right"}`} 
-        style={{ 
-          backgroundColor: "#f0f0f0", 
-          borderRadius: "15px", 
-          padding: "20px", 
-          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", 
-          outline: "3px solid white", 
-          outlineOffset: "3px",
-          marginTop: index === 0 ? "100px" : "20px"  
-
-        }}>
+        style={{ backgroundColor: "#f0f0f0", borderRadius: "15px", padding: "20px", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", outline: "3px solid white", outlineOffset: "3px",marginTop: index === 0 ? "100px" : "20px"}}>
           <div className="project-image-wrapper">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img src={project.image} alt={project.title} className="project-image" style={{ border: "3px solid black", outline: "0.5px solid black", outlineOffset: "1px" }} />

@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .nav {
     cursor: pointer;
     color: white;
@@ -113,25 +112,20 @@ body {
   background: #0056b3;
 }
 
-/* Alternate Layout: Image Left, Text Right */
 .project-item.left {
   flex-direction: row;
 }
 
-/* Alternate Layout: Image Right, Text Left */
 .project-item.right {
   flex-direction: row-reverse;
 }
 
-/* Responsive: Stack on smaller screens */
 @media (max-width: 768px) {
-  /* Navbar */
   .navbar .nav-link {
     font-size: 1em !important;
     margin-right: 10px !important;
   }
 
-  /* Home Section */
   #home h1 {
     font-size: 3.5rem !important;
   }
@@ -143,7 +137,6 @@ body {
     text-align: center;
   }
 
-  /* About Section */
   #about h2 {
     font-size: 3.2em !important;
     margin-bottom: 0.1px !important;
@@ -178,7 +171,6 @@ body {
     text-align: center;
   }
 
-  /* Skills Section */
   #skills h2 {
     font-size: 1em !important;
     margin-top: 10px !important;
@@ -193,7 +185,6 @@ body {
     max-width: 50%;
   }
 
-  /* Projects Section */
   #projects h2 {
     font-size: 2em !important;
     margin-top: 100px !important;
@@ -226,8 +217,6 @@ body {
     width: 360px !important;
   }
 
-
-  /* Experience & Education Section */
   #Exp h2 {
     font-size: 3em !important;
     margin-top: 100px !important;
@@ -239,7 +228,6 @@ body {
     font-weight: bold;
   }
 
-  /* Footer */
   footer {
     margin-top: 40px !important;
     height: auto !important;

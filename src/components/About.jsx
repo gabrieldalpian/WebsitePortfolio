@@ -4,7 +4,6 @@ import { FaFireAlt, FaMapSigns, FaBowlingBall } from 'react-icons/fa';
 import { PiSoccerBallFill } from "react-icons/pi";
 import Img6687 from '../assets/IMG_6687-3.jpeg';
 
-
 const About = () => {
   return (
     <section id="about" className="py-5">
@@ -14,21 +13,7 @@ const About = () => {
             <h2 style={{ textAlign: "center", justifyContent: "center", fontSize: "4em", marginBottom:"340px", color:"white" }}><b>About Me</b></h2>
           </Col>
           <Col md={5}>
-            <Image
-              src={Img6687}
-              fluid
-              style={{
-                objectFit: "cover", 
-                objectPosition: "top", 
-                width:"800px",
-                height:"600px",
-                borderRadius: "10px", 
-                marginTop:"100px",
-                border: "0.5px solid white", 
-                outline: "3px solid white", 
-                outlineOffset: "3px"
-              }}
-            />
+            <Image src={Img6687}fluid style={{objectFit: "cover", objectPosition: "top", width:"800px",height:"600px",borderRadius: "10px", marginTop:"100px",border: "0.5px solid white", outline: "3px solid white", outlineOffset: "3px",marginLeft:"60px"}}/>
           </Col>
           <Col md={6}>
             <div style={{ color: "white", textAlign: "center", fontSize: "1.5rem", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6", marginTop:"-430px" }}>
