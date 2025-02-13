@@ -4,7 +4,7 @@ import CustomNavbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
 import ExperienceAndEducation from './components/ExperienceAndEducation';
-import Contact from './components/Contact';  // Ensure this path is correct
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <ExperienceAndEducation />
-      <Contact />  {/* The Contact component will now be correctly referenced */}
+      <Contact />  
       <Footer />
     </div>
   );
