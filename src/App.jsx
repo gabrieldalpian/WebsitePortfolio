@@ -4,11 +4,11 @@ import CustomNavbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
 import ExperienceAndEducation from './components/ExperienceAndEducation';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import './App.css';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <ExperienceAndEducation />
-      <Contact />  
+      <GetInTouch />  
       <Footer />
     </div>
   );

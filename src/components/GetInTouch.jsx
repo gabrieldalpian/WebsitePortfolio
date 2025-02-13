@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
-const Contact = () => {
+const GetInTouch = () => {
   return (
     <section id="info">
       <div style={{ textAlign: 'center',padding: '40px 20px', fontFamily: 'Arial, sans-serif', color: 'white',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',}}>
@@ -31,4 +31,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default GetInTouch;
