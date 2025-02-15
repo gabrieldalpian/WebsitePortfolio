@@ -11,7 +11,7 @@ const projects = [
     title: "E-commerce Store",
     description: "Developed a fully functional e-commerce platform using ReactJS for purchasing soccer jerseys. Implemented a shopping cart using React hooks. Designed a responsive layout for an amazing user experience.",
     image: ecommerceImg,
-    link: "https://6755517bcfcfd400087c5d47--footballelite.netlify.app",
+    link: "https://jersey-shop-git-main-gabrieldalpians-projects.vercel.app",
     github: "https://github.com/gabrieldalpian/JerseyShop",
     isEcommerce: true,
   },
