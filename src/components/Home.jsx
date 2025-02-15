@@ -11,19 +11,19 @@ const Home = () => {
             <h1 style={{ fontSize: "5rem", fontWeight: "bold" }}> 
               My friends call me Gabe!
             </h1>
-            <div style={{ display: "flex", justifyContent: "center", alignItems: "left", gap: "10px", paddingRight:"300px", fontSize:"3em", marginTop:"30px"}}>
-              I&apos;m a{" "}
-              <span style={{ color: "black", fontWeight:"bold" }}>
-                <Typewriter 
-                  options={{
-                    strings: ["Software Engineer.", "Web Developer.", "Tech Student."],
-                    autoStart: true,
-                    loop: true,
-                    deleteSpeed: 50,
-                  }}
-                />
-              </span>
-            </div>
+            <div className="intro-container">
+  I&apos;m a{" "}
+  <span className="typewriter-text">
+    <Typewriter 
+      options={{
+        strings: ["Software Engineer.", "Web Developer.", "Tech Student."],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
+  </span>
+</div>
           </Card.Body>
         </Card>
       </Container>

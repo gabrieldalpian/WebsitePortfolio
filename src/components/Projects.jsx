@@ -25,7 +25,7 @@ const projects = [
     title: "HealthBot",
     description: "Developed a Java-based text chatbot for health and fitness guidance, using conditional logic to provide personalized advice on meal plans, workouts, and wellness habits.",
     image: chat,
-    github: "https://github.com/your-healthbot-project",
+    github: "https://github.com/gabrieldalpian/HealthBot",
   },
   {
     title: "Weather App",
