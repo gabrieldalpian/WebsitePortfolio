@@ -1,4 +1,4 @@
-import Resume from "../assets/resumeLast.png";
+import Resume from "../assets/myResume.pdf";
 
 const ExperienceAndEducation = () => {
   return (

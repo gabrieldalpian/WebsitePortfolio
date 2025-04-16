@@ -4,7 +4,7 @@ import "../App.css";
 import cryptoImg from "../assets/bit&eth.png";
 import weatherImg from "../assets/weatherImage.png";
 import ecommerceImg from "../assets/e-commerce.jpg.png";
-import chat from "../assets/Unknown.png";
+import chat from "../assets/just.jpg";
 
 const projects = [
   {
@@ -22,10 +22,10 @@ const projects = [
     github: "https://github.com/gabrieldalpian/CryptoPriceTracker",
   },
   {
-    title: "HealthBot",
-    description: "Developed a Java-based text chatbot for health and fitness guidance, using conditional logic to provide personalized advice on meal plans, workouts, and wellness habits.",
+    title: "Banking System",
+    description: "Developed a Java banking system with account creation, deposits, withdrawals, transfers, interest application for savings accounts, and transaction history tracking.",
     image: chat,
-    github: "https://github.com/gabrieldalpian/HealthBot",
+    github: "https://github.com/gabrieldalpian/BankAccount",
   },
   {
     title: "Weather App",
