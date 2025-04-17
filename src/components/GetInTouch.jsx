@@ -14,7 +14,7 @@ const GetInTouch = () => {
             <FaPhone />
           </span>
           <a href="tel:+1551-339-2508"style={{color: 'white',textDecoration: 'none',fontSize: '1.5em',transition: 'color 0.3s ease',}}>
-            +1 551-339-2508
+            +1 (551) 339-2508
           </a>
         </div>
 
@@ -23,7 +23,7 @@ const GetInTouch = () => {
             <FaEnvelope />
           </span>
           <a href="mailto:gabrieldalpian1227@gmail.com"style={{color: 'white',textDecoration: 'none',fontSize: '1.5em',transition: 'color 0.3s ease',}}>
-            gabrieldalpian1227@gmail.com
+            gdd@njit.com
           </a>
         </div>
       </div>

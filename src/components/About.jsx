@@ -21,7 +21,9 @@ const About = () => {
           </Col>
           <Col md={6}>
             <div className="custom-text">
-            <div style={{ color: "white", textAlign: "center", fontSize: "1.5rem", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6", marginTop:"-430px" }}>
+            <div style={{ color: "black", textAlign: "center", fontSize: "1.5rem", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6", marginTop:"-430px", fontFamily: "'Space Grotesk', sans-serif",fontWeight: "600",backgroundColor: "#f0f0f0", borderRadius: "15px", padding: "20px", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", outline: "3px solid white", outlineOffset: "3px"
+
+ }}>
               Hello, I&apos;m Gabriel. I&apos;m currently a Student at the New Jersey Institute of Technology. I will be graduating in December 2026 with a Bachelors of Science in Information Technology. I have had a passion for problem-solving and creating, which I plan to pursue as a career being a Software Engineer. Some of my hobbies include.
             </div>
             </div>
@@ -29,10 +31,10 @@ const About = () => {
               <b>SPORTS | BBQ | ESCAPE ROOM | BOWLING</b>
             </div>
             <div style={{ textAlign: "center", marginTop: "20px" }}>
-              <PiSoccerBallFill size={50} style={{ margin: "0 15px", color: "black" }} />
-              <FaFireAlt size={40} style={{ margin: "0 15px", color: "black" }} />
-              <FaMapSigns size={40} style={{ margin: "0 15px", color: "black" }} />
-              <FaBowlingBall size={40} style={{ margin: "0 15px", color: "black" }} />
+              <PiSoccerBallFill size={50} style={{ margin: "0 15px", color: "white" }} />
+              <FaFireAlt size={40} style={{ margin: "0 15px", color: "white" }} />
+              <FaMapSigns size={40} style={{ margin: "0 15px", color: "white" }} />
+              <FaBowlingBall size={40} style={{ margin: "0 15px", color: "white" }} />
             </div>
           </Col>
         </Row>
