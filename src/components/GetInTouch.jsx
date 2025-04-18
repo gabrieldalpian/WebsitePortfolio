@@ -23,7 +23,7 @@ const GetInTouch = () => {
             <FaEnvelope />
           </span>
           <a href="mailto:gabrieldalpian1227@gmail.com"style={{color: 'white',textDecoration: 'none',fontSize: '1.5em',transition: 'color 0.3s ease',}}>
-            gdd@njit.com
+            gdd@njit.edu
           </a>
         </div>
       </div>
