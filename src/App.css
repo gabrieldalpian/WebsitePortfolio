@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: left;
   gap: 10px;
-  padding-right: 15vw; /* Responsive padding */
+  padding-right: 15vw; 
   font-size: 3em;
   margin-top: 30px;
 }
