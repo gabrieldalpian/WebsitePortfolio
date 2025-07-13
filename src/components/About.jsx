@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FaFireAlt, FaMapSigns, FaBowlingBall } from 'react-icons/fa';
 import { PiSoccerBallFill } from "react-icons/pi";
 import Img6687 from '../assets/profilePic.jpg';
+import profile from "../assets/profile.jpeg";
+
 
 const About = () => {
   return (
@@ -14,7 +16,7 @@ const About = () => {
           </Col>
           <Col md={5}>
             <Image 
-            src={Img6687}
+            src={profile}
             fluid 
             className="custom-image"
             style={{objectFit: "cover", objectPosition: "top", width:"800px",height:"600px",borderRadius: "10px", marginTop:"100px",border: "0.5px solid white", outline: "3px solid white", outlineOffset: "3px",marginLeft:"60px"}}/>

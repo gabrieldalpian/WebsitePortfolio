@@ -5,8 +5,41 @@ import cryptoImg from "../assets/bit&eth.png";
 import weatherImg from "../assets/weatherImage.png";
 import ecommerceImg from "../assets/e-commerce.jpg.png";
 import chat from "../assets/just.jpg";
+import player from "../assets/player.jpg";
+import patient from "../assets/patient2.png";
+import profile from "../assets/profile.jpeg";
 
 const projects = [
+  {
+  title: "Ultimate Stats",
+  description: "Built a Full-Stack App with Java and Spring Boot backend with REST APIs, a responsive ReactJS frontend for searching players by name, nationality, team, or position, and a PostgreSQL database storing data for 700+ players.",
+  image: player,
+  link: "https://ultimate-stats-chi.vercel.app",
+  github: "https://github.com/gabrieldalpian/UltimateStats",
+  isEcommerce: true,
+  },
+
+  {
+    title: "Patient Registration System",
+    description: "Developed a Java desktop application for registering patient data using Swing for GUI design and applied MVC architecture to structure model, view, and controller layers.",
+    image: patient,
+    github: "https://github.com/gabrieldalpian/Patient-Registration-System",
+  },
+
+  {
+    title: "Banking System",
+    description: "Developed a Java banking system with account creation, deposits, withdrawals, transfers, interest application for savings accounts, and transaction history tracking.",
+    image: chat,
+    github: "https://github.com/gabrieldalpian/BankAccount",
+  },
+
+  {
+    title: "Crypto Price Tracker",
+    description: "Developed a Python-based crypto tracker that fetches and stores real-time Bitcoin and Ethereum prices via API. Built an SQLite3 backend for automated updates every 10 minutes and a PHP web interface to display live data.",
+    image: cryptoImg,
+    github: "https://github.com/gabrieldalpian/CryptoPriceTracker",
+  },
+
   {
     title: "E-commerce Store",
     description: "Developed a fully functional e-commerce platform using ReactJS for purchasing soccer jerseys. Implemented a shopping cart using React hooks. Designed a responsive layout for an amazing user experience.",
@@ -15,18 +48,7 @@ const projects = [
     github: "https://github.com/gabrieldalpian/JerseyShop",
     isEcommerce: true,
   },
-  {
-    title: "Crypto Price Tracker",
-    description: "Developed a Python-based crypto tracker that fetches and stores real-time Bitcoin and Ethereum prices via API. Built an SQLite3 backend for automated updates every 10 minutes and a PHP web interface to display live data.",
-    image: cryptoImg,
-    github: "https://github.com/gabrieldalpian/CryptoPriceTracker",
-  },
-  {
-    title: "Banking System",
-    description: "Developed a Java banking system with account creation, deposits, withdrawals, transfers, interest application for savings accounts, and transaction history tracking.",
-    image: chat,
-    github: "https://github.com/gabrieldalpian/BankAccount",
-  },
+  
   {
     title: "Weather App",
     description: "Built a JavaScript weather app that fetches and displays real-time city weather using the OpenWeatherMap API.",

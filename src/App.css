@@ -100,6 +100,7 @@ body {
 .project-info h3 {
   font-size: 2em;
   color: black;
+  white-space: nowrap;
 }
 
 .project-info p {
@@ -128,6 +129,20 @@ body {
 
 .project-item.right {
   flex-direction: row-reverse;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.icon-wrapper img,
+.icon-wrapper svg {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
