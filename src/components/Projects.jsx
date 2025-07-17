@@ -8,6 +8,8 @@ import chat from "../assets/just.jpg";
 import player from "../assets/player.jpg";
 import patient from "../assets/patient2.png";
 import profile from "../assets/profile.jpeg";
+import Authentication from "../assets/Authentication.png";
+
 
 const projects = [
   {
@@ -17,6 +19,15 @@ const projects = [
   link: "https://ultimate-stats-chi.vercel.app",
   github: "https://github.com/gabrieldalpian/UltimateStats",
   isEcommerce: true,
+  },
+
+  {
+    title: "Authentication App",
+    description: "Created a full-stack web application for user registration and login using Java and Spring Boot for the backend, React for the frontend, and JWT for secure authentication. Implemented form validation, encrypted password storage, and protected routes with token-based access control.",
+    image: Authentication,
+    link: "https://sign-up-login-page-two.vercel.app",
+    github: "https://github.com/gabrieldalpian/SignUp-Login-Page",
+    isEcommerce: true,
   },
 
   {
