@@ -108,6 +108,46 @@ const Skills = () => {
           </div>
         </div>
 
+        {/* Angular */}
+        <div className="col-md-3 mb-3">
+          <div className="card text-center p-3">
+            <div className="icon-wrapper">
+              <SiAngular className="text-danger display-4" />
+            </div>
+            <h5 className="mt-2">Angular</h5>
+          </div>
+        </div>
+
+        {/* TypeScript */}
+        <div className="col-md-3 mb-3">
+          <div className="card text-center p-3">
+            <div className="icon-wrapper">
+              <SiTypescript className="text-info display-4" />
+            </div>
+            <h5 className="mt-2">TypeScript</h5>
+          </div>
+        </div>
+
+        {/* Next.js */}
+        <div className="col-md-3 mb-3">
+          <div className="card text-center p-3">
+            <div className="icon-wrapper">
+              <SiNextdotjs className="text-dark display-4" />
+            </div>
+            <h5 className="mt-2">Next.js</h5>
+          </div>
+        </div>
+
+        {/* Tailwind CSS */}
+        <div className="col-md-3 mb-3">
+          <div className="card text-center p-3">
+            <div className="icon-wrapper">
+              <SiTailwindcss className="text-blue-400 display-4" />
+            </div>
+            <h5 className="mt-2">Tailwind CSS</h5>
+          </div>
+        </div>
+
         {/* Bootstrap */}
         <div className="col-md-3 mb-3">
           <div className="card text-center p-3">

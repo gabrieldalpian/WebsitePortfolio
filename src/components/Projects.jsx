@@ -24,7 +24,7 @@ const projects = [
   {
     title: "BankingAtGabriel's",
     description: "Built a full-stack banking web application using Java Spring Boot for the backend and Angular for the frontend. Implemented transaction processing for depositing and withdrawing money",
-    image: Bankingtwo,
+    image: Banking,
     link: "https://banking-at-gabriels.vercel.app",
     github: "https://github.com/gabrieldalpian/BankingAtGabriels",
     isEcommerce: true,
