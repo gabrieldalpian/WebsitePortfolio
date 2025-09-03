@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaReact, FaJs, FaPython, FaDatabase, FaJava, FaPhp } from "react-icons/fa";
-import { SiBootstrap } from "react-icons/si";
+import { SiBootstrap, SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
