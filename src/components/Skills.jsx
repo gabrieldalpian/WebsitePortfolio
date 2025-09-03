@@ -112,7 +112,11 @@ const Skills = () => {
         <div className="col-md-3 mb-3">
           <div className="card text-center p-3">
             <div className="icon-wrapper">
-              <SiAngular className="text-danger display-4" />
+              <img 
+                src="https://angular.io/assets/images/logos/angular/angular.svg" 
+                alt="Angular" 
+                style={{ maxWidth: "60px", margin: "0 auto" }} 
+              />
             </div>
             <h5 className="mt-2">Angular</h5>
           </div>
