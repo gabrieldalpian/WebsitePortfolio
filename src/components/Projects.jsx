@@ -8,7 +8,7 @@ import chat from "../assets/just.jpg";
 import player from "../assets/player.jpg";
 import patient from "../assets/patient2.png";
 import profile from "../assets/profile.jpeg";
-import Banking from "../assets/banking.png";
+import Banking from "../assets/bankingtwo.png";
 
 
 const projects = [
@@ -23,8 +23,8 @@ const projects = [
 
   {
     title: "BankingAtGabriel's",
-    description: "Built a full-stack banking web application using Java Spring Boot for the backend and Angular for the frontend. Implemented transaction processing for depositing and withdrawig money",
-    image: Banking,
+    description: "Built a full-stack banking web application using Java Spring Boot for the backend and Angular for the frontend. Implemented transaction processing for depositing and withdrawing money",
+    image: Bankingtwo,
     link: "https://banking-at-gabriels.vercel.app",
     github: "https://github.com/gabrieldalpian/BankingAtGabriels",
     isEcommerce: true,
