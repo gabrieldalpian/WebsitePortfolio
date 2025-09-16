@@ -1,4 +1,4 @@
-import Resume from "../assets/GabrielDalpianDeCastilhosPedroResume.pdf";
+import Resume from "../assets/GabrielDalpianDeCastilhosPedroResume.pdf.pdf";
 
 const ExperienceAndEducation = () => {
   return (
