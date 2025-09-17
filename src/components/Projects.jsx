@@ -9,7 +9,7 @@ import player from "../assets/player.jpg";
 import patient from "../assets/patient2.png";
 import profile from "../assets/profile.jpeg";
 import Banking from "../assets/bankingtwo.png";
-
+import ChatBot from "../assets/chatbot.png";
 
 const projects = [
   {
@@ -18,6 +18,15 @@ const projects = [
   image: player,
   link: "https://ultimate-stats-chi.vercel.app",
   github: "https://github.com/gabrieldalpian/UltimateStats",
+  isEcommerce: true,
+  },
+
+  {
+  title: "MyChatBot",
+  description: "Created a personal chatbot with TypeScript, and the Gemini API. It features a simple chat interface with styled messages designed to answer questions based on my personal background.",
+  image: ChatBot,
+  link: "https://my-chat-bot-six.vercel.app",
+  github: "https://github.com/gabrieldalpian/MyChatBot",
   isEcommerce: true,
   },
 
